@@ -26,17 +26,32 @@
 
   <section id="es" lang="es">
     <h1>Política de privacidad de «Horario de Clases»</h1>
-    <p class="date">Vigente desde el 28 de octubre de 2026 (versión 4 de la app)</p>
-    <p>«Horario de Clases» es una app para Android que organiza tu horario de clases, tus notas y tus evaluaciones, creada por Leonardo Palominos. Esta página explica qué hace la app con tus datos. La versión corta: <strong>tus horarios, notas y eventos se quedan en tu teléfono y la app no recopila datos personales</strong>; los anuncios los muestra Google AdMob, que sí usa datos del teléfono.</p>
+    <p class="date">Vigente desde el 2 de noviembre de 2026 (versión 4.1 de la app)</p>
+    <p>«Horario de Clases» es una app para Android que organiza tu horario de clases, tus notas y tus evaluaciones, creada por Leonardo Palominos. Esta página explica qué hace la app con tus datos. La versión corta: <strong>tus horarios, notas y eventos se quedan en tu teléfono</strong>. Del teléfono sólo salen los datos que usan los anuncios de Google AdMob, la suscripción opcional «Sin anuncios» y, si la usas, la recuperación del Premium de una versión anterior.</p>
 
     <h2>Qué datos se recopilan</h2>
-    <p>La app no tiene cuentas de usuario ni inicio de sesión, no usa analítica propia y el desarrollador no recibe datos tuyos. Los anuncios usan el SDK de Google AdMob, que trata datos del teléfono como se explica más abajo.</p>
+    <p>La app no tiene analítica propia y no crea cuentas de usuario. Salen del teléfono:</p>
+    <ul>
+      <li>Los datos que usa el SDK de anuncios de Google (ver «Anuncios»).</li>
+      <li>Un identificador anónimo y, si compras la suscripción, la información de tus compras en la app, a través de Google Play y RevenueCat (ver «Suscripción “Sin anuncios”»).</li>
+      <li>Si recuperas el Premium de una versión anterior, los datos de tu cuenta de Google necesarios para encontrar tu compra (ver «Recuperar el Premium de una versión anterior»).</li>
+    </ul>
+    <p>Ninguno de estos datos se vende ni se usa para otros fines.</p>
 
     <h2>Anuncios</h2>
     <p>La app muestra banners y, de vez en cuando, un anuncio a pantalla completa de Google AdMob. Para mostrar los anuncios, medirlos y evitar fraudes, el SDK de anuncios de Google recopila y comparte con Google datos del teléfono: la dirección IP (de la que se puede deducir la ubicación aproximada), el ID de publicidad de Android y otros identificadores del dispositivo, tus interacciones con los anuncios y la app, e información de diagnóstico y rendimiento. Esos datos viajan cifrados y los trata Google según sus propias políticas; el desarrollador no los recibe.</p>
+    <p>Si quieres, en Ajustes puedes ver un video de AdMob para usar la app sin anuncios durante 24 horas. La app guarda en tu teléfono hasta cuándo dura ese plazo.</p>
     <p>En el Espacio Económico Europeo, el Reino Unido y Suiza, la app te pide tu consentimiento con el formulario de Google antes de mostrar anuncios, y puedes cambiar tu decisión cuando quieras en Ajustes → Opciones de privacidad de anuncios. En cualquier país puedes restablecer o eliminar el ID de publicidad en los ajustes de Android.</p>
-    <p>Si compraste la cuenta premium de una versión anterior, la app no te muestra anuncios y no inicia el SDK de anuncios.</p>
+    <p>Si tienes la suscripción «Sin anuncios» o compraste Premium en una versión anterior, la app no te muestra anuncios y no inicia el SDK de anuncios.</p>
     <p>Cómo usa Google estos datos: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a></p>
+
+    <h2>Suscripción «Sin anuncios»</h2>
+    <p>Puedes comprar una suscripción mensual o anual que quita los anuncios. El pago lo procesa Google Play: ni la app ni el desarrollador reciben tus datos de pago, como tu tarjeta. La suscripción se renueva sola hasta que la canceles en Google Play → Pagos y suscripciones.</p>
+    <p>Para saber si tienes la suscripción activa, la app usa el servicio RevenueCat (RevenueCat, Inc.). RevenueCat recibe un identificador anónimo que crea la app y, si compras, la información de tus compras en esta app: qué plan, cuándo, el precio, el país y el estado de la suscripción, además de datos técnicos como las versiones de la app y de Android. No recibe tu nombre ni tu correo. El desarrollador puede ver esas compras en el panel de RevenueCat, sin saber quién las hizo. La app guarda en tu teléfono si la suscripción está activa, para no mostrarte anuncios mientras lo confirma.</p>
+    <p>Política de privacidad de RevenueCat: <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a></p>
+
+    <h2>Recuperar el Premium de una versión anterior</h2>
+    <p>Si compraste Premium en una versión 3.x, puedes recuperarlo en Ajustes → Recuperar Premium. Eliges tu cuenta de Google y Google le entrega a la app un comprobante de inicio de sesión con tu nombre, tu correo y tu foto de perfil. La app lo envía a Firebase Authentication (de Google), en el mismo proyecto que usaban las versiones 3.x, para identificar la cuenta con que usabas la app, y consulta si esa cuenta tiene una compra Premium registrada. En el teléfono sólo queda guardado que tienes Premium: la app no guarda tu correo ni la sesión. Esta función es opcional y no crea cuentas nuevas.</p>
 
     <h2>Notificaciones y widget</h2>
     <p>Los avisos antes de cada clase y de tus eventos son notificaciones locales: las programa tu propio teléfono, sin pasar por ningún servidor. Si activas la notificación fija o agregas el widget, tu próxima clase y tus próximos eventos se pueden ver en la pantalla de bloqueo o de inicio; puedes desactivarlos cuando quieras.</p>
@@ -48,10 +63,13 @@
     <p>Cuando exportas un respaldo o compartes un horario, el archivo va solo a la app o servicio que tú elijas (por ejemplo, Google Drive o WhatsApp). Un horario compartido incluye sus asignaturas y clases, pero no tus notas ni tus eventos.</p>
 
     <h2>Versiones anteriores</h2>
-    <p>Las versiones 3.x permitían iniciar sesión con Google para respaldar tus horarios en la nube, compartirlos con un código y comprar una cuenta premium; para eso guardaban en un servidor de Firebase tus horarios (con sus notas y eventos), los horarios compartidos y, si compraste premium, tu correo y el número de compra. La versión 4 eliminó esas funciones y ya no envía datos a ningún servidor propio. Si quieres que se borren los datos que guardaste así, escribe al correo de contacto.</p>
+    <p>Las versiones 3.x permitían iniciar sesión con Google para respaldar tus horarios en la nube, compartirlos con un código y comprar una cuenta premium; para eso guardaban en un servidor de Firebase tus horarios (con sus notas y eventos), los horarios compartidos y, si compraste premium, tu correo, tu identificador de usuario y el número de compra. La versión 4 eliminó el respaldo en la nube y los horarios compartidos: ya no envía horarios a ningún servidor, y nadie puede leerlos ni modificarlos desde la app. Los registros de compra premium se conservan sólo para reconocer esas compras (ver «Recuperar el Premium de una versión anterior»).</p>
+
+    <h2 id="eliminar">Eliminar tus datos</h2>
+    <p>Lo que se guarda en tu teléfono se borra al desinstalar la app. Para pedir que se borren tus datos de las versiones 3.x en Firebase, incluido tu registro de compra premium, o tus compras registradas en RevenueCat, escribe al correo de contacto indicando tu correo de Google o el número de pedido de Google Play. Los borraremos en un plazo máximo de 30 días. Si se borra tu registro de compra premium, ya no podrás recuperar el Premium.</p>
 
     <h2>Enlaces externos</h2>
-    <p>Desde los ajustes de la app se puede abrir esta página en tu navegador y la ficha de la app en Google Play. Si tocas un anuncio, se puede abrir el sitio o la tienda del anunciante. Lo que pase fuera de la app se rige por las políticas de esos sitios.</p>
+    <p>Desde los ajustes de la app se puede abrir esta página en tu navegador, la ficha de la app en Google Play y la página de Google Play para administrar tu suscripción. Si tocas un anuncio, se puede abrir el sitio o la tienda del anunciante. Lo que pase fuera de la app se rige por las políticas de esos sitios.</p>
 
     <h2>Niños</h2>
     <p>La app no está dirigida a menores de 13 años, y los anuncios se limitan a contenido apto para adolescentes.</p>
@@ -67,17 +85,32 @@
 
   <section id="en" lang="en">
     <h1>Privacy policy of “Horario de Clases”</h1>
-    <p class="date">Effective from 28 October 2026 (app version 4)</p>
-    <p>“Horario de Clases” is an Android app that organizes your class schedule, grades and assignments, created by Leonardo Palominos. This page explains what the app does with your data. The short version: <strong>your schedules, grades and events stay on your phone and the app collects no personal data</strong>; ads are shown by Google AdMob, which does use data from your phone.</p>
+    <p class="date">Effective from 2 November 2026 (app version 4.1)</p>
+    <p>“Horario de Clases” is an Android app that organizes your class schedule, grades and assignments, created by Leonardo Palominos. This page explains what the app does with your data. The short version: <strong>your schedules, grades and events stay on your phone</strong>. The only data that leaves your phone is what Google AdMob ads use, the optional “No ads” subscription and, if you use it, restoring Premium from an earlier version.</p>
 
     <h2>What data is collected</h2>
-    <p>The app has no user accounts or sign-in, uses no analytics of its own and the developer receives no data about you. Ads use the Google AdMob SDK, which handles data from your phone as explained below.</p>
+    <p>The app uses no analytics of its own and does not create user accounts. What leaves your phone:</p>
+    <ul>
+      <li>The data used by Google's ads SDK (see “Ads”).</li>
+      <li>An anonymous identifier and, if you buy the subscription, information about your purchases in the app, through Google Play and RevenueCat (see “‘No ads’ subscription”).</li>
+      <li>If you restore Premium from an earlier version, the Google account data needed to find your purchase (see “Restoring Premium from an earlier version”).</li>
+    </ul>
+    <p>None of this data is sold or used for other purposes.</p>
 
     <h2>Ads</h2>
     <p>The app shows Google AdMob banners and, from time to time, a full-screen ad. To show and measure ads and to prevent fraud, Google's ads SDK collects and shares with Google data from your phone: the IP address (from which an approximate location can be inferred), the Android advertising ID and other device identifiers, your interactions with the ads and the app, and diagnostic and performance information. This data is encrypted in transit and handled by Google under its own policies; the developer does not receive it.</p>
+    <p>If you like, in Settings you can watch an AdMob video to use the app without ads for 24 hours. The app stores on your phone when that period ends.</p>
     <p>In the European Economic Area, the United Kingdom and Switzerland, the app asks for your consent with Google's form before showing ads, and you can change your choice at any time in Settings → Ad privacy options. In any country you can reset or delete your advertising ID in the Android settings.</p>
-    <p>If you bought the premium account in an earlier version, the app shows you no ads and does not start the ads SDK.</p>
+    <p>If you have the “No ads” subscription or bought Premium in an earlier version, the app shows you no ads and does not start the ads SDK.</p>
     <p>How Google uses this data: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a></p>
+
+    <h2>“No ads” subscription</h2>
+    <p>You can buy a monthly or yearly subscription that removes the ads. Payment is processed by Google Play: neither the app nor the developer receives your payment details, such as your card. The subscription renews automatically until you cancel it in Google Play → Payments &amp; subscriptions.</p>
+    <p>To know whether your subscription is active, the app uses the RevenueCat service (RevenueCat, Inc.). RevenueCat receives an anonymous identifier created by the app and, if you buy, information about your purchases in this app: which plan, when, the price, the country and the subscription status, plus technical data such as the app and Android versions. It does not receive your name or email. The developer can see those purchases in the RevenueCat dashboard without knowing who made them. The app stores on your phone whether the subscription is active, so it shows you no ads while it checks.</p>
+    <p>RevenueCat's privacy policy: <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a></p>
+
+    <h2>Restoring Premium from an earlier version</h2>
+    <p>If you bought Premium in a 3.x version, you can restore it in Settings → Restore Premium. You choose your Google account and Google gives the app a sign-in token with your name, email and profile picture. The app sends it to Firebase Authentication (by Google), in the same project that versions 3.x used, to identify the account you used the app with, and checks whether that account has a Premium purchase on record. Only the fact that you have Premium is stored on your phone: the app does not keep your email or the session. This feature is optional and does not create new accounts.</p>
 
     <h2>Notifications and widget</h2>
     <p>Reminders before each class and for your events are local notifications: your own phone schedules them, without going through any server. If you turn on the pinned notification or add the widget, your next class and upcoming events may be visible on the lock screen or home screen; you can turn them off at any time.</p>
@@ -89,10 +122,13 @@
     <p>When you export a backup or share a schedule, the file goes only to the app or service you choose (for example, Google Drive or WhatsApp). A shared schedule includes its subjects and classes, but not your grades or events.</p>
 
     <h2>Earlier versions</h2>
-    <p>Versions 3.x let you sign in with Google to back up your schedules in the cloud, share them with a code and buy a premium account; to do so they stored on a Firebase server your schedules (with their grades and events), shared schedules and, if you bought premium, your email and purchase number. Version 4 removed those features and no longer sends data to any server of its own. If you want the data you stored that way deleted, write to the contact email.</p>
+    <p>Versions 3.x let you sign in with Google to back up your schedules in the cloud, share them with a code and buy a premium account; to do so they stored on a Firebase server your schedules (with their grades and events), shared schedules and, if you bought premium, your email, your user identifier and your purchase number. Version 4 removed cloud backup and shared schedules: it no longer sends schedules to any server, and nobody can read or change them from the app. Premium purchase records are kept only to recognize those purchases (see “Restoring Premium from an earlier version”).</p>
+
+    <h2 id="delete">Deleting your data</h2>
+    <p>Whatever is stored on your phone is deleted when you uninstall the app. To ask for your data from versions 3.x in Firebase to be deleted, including your premium purchase record, or for your purchases recorded in RevenueCat to be deleted, write to the contact email with your Google email or your Google Play order number. We will delete it within 30 days. Once your premium purchase record is deleted, you can no longer restore Premium.</p>
 
     <h2>External links</h2>
-    <p>The app's settings can open this page in your browser and the app's Google Play page. If you tap an ad, the advertiser's website or store page may open. Whatever happens outside the app is governed by those sites' own policies.</p>
+    <p>The app's settings can open this page in your browser, the app's Google Play page and the Google Play page to manage your subscription. If you tap an ad, the advertiser's website or store page may open. Whatever happens outside the app is governed by those sites' own policies.</p>
 
     <h2>Children</h2>
     <p>The app is not directed at children under 13, and ads are limited to content suitable for teenagers.</p>
